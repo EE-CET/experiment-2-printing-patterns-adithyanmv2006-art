@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Test Case 1 (n=3)",
+      "setup": "javac src/PatternPrinting.java",
+      "run": "java -cp src PatternPrinting",
+      "input": "3",
+      "output": "* * *\n*\n*\n*",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 50
+    },
+    {
+      "name": "Test Case 2 (n=5)",
+      "setup": "javac src/PatternPrinting.java",
+      "run": "java -cp src PatternPrinting",
+      "input": "5",
+      "output": "* * * * *\n*\n*\n*\n*\n*",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 50
+    }
+  ]
+}
