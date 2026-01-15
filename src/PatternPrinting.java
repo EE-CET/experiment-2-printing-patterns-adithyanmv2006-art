@@ -6,7 +6,12 @@ public class PatternPrinting {
 		int n;
 		n=sc.nextInt();
 		for(int i=0;i<n;i++){
-			System.out.print("* ");
+			if(i==2){
+				System.out.print("*");
+			}
+			else{	
+				System.out.print("* ");
+			}
 		}	
 		System.out.println(" ");
 		for(int i=0;i<n;i++){
