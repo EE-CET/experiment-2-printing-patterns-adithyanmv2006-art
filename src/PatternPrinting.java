@@ -6,7 +6,7 @@ public class PatternPrinting {
 		int n;
 		n=sc.nextInt();
 		for(int i=0;i<n;i++){
-			if(i==2){
+			if(i==n-1){
 				System.out.print("*");
 			}
 			else{	
@@ -15,7 +15,12 @@ public class PatternPrinting {
 		}	
 		System.out.println(" ");
 		for(int i=0;i<n;i++){
-			System.out.println("*");
+			if(i==n-1){
+				System.out.print("*");
+			}
+			else{	
+				System.out.println("*");
+			}
 		}
 
 	} 
