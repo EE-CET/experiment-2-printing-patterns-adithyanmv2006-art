@@ -5,13 +5,8 @@ public class PatternPrinting {
 		Scanner sc=new Scanner(System.in);
 		int n;
 		n=sc.nextInt();
-		for(int i=0;i<n;i++){
-			if(i==n-1){
-				System.out.print("*");
-			}
-			else{	
-				System.out.print("* ");
-			}
+		for(int i=0;i<n;i++){	
+			System.out.print("* ");
 		}	
 		System.out.println(" ");
 		for(int i=0;i<n;i++){
@@ -19,7 +14,7 @@ public class PatternPrinting {
 				System.out.print("*");
 			}
 			else{	
-				System.out.println("*");
+				System.out.println("* ");
 			}
 		}
 
